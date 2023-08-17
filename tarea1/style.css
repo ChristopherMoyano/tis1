@@ -1,19 +1,28 @@
 div{
+    padding: 0;
+    margin: 0;
     height: 100px;
     width: 100px;
     display:inline-block;
     margin-left: 5px;
+    background-color: red;
+    text-align: center;
 
 }
-.cuadrado{
-    padding: 0;
-    margin: 0;
-    background-color:red;
-    
+.cuadrado-1{
+    opacity: 1;
+}
+.cuadrado-2{
+    opacity: 0.5;
+    text-decoration: underline;
 }
 .vacio{
-    display: hidden;
+    background-color: white;
+    color: white;
 }
 .cuadrado-negro{
     background-color: black;
+    opacity: 0.1;
+    text-transform: uppercase;
+    color: white;
 }
