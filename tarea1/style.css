@@ -2,16 +2,18 @@ div{
     height: 100px;
     width: 100px;
     display:inline-block;
+    margin-left: 5px;
 
 }
 .cuadrado{
     padding: 0;
     margin: 0;
     background-color:red;
-    margin-left: 5px;
+    
 }
 .vacio{
+    display: hidden;
+}
+.cuadrado-negro{
     background-color: black;
-    margin-left: 100px;
-    display: none;
 }
