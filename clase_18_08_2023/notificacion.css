@@ -1,0 +1,67 @@
+.container{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 70px;
+    width: 410px;
+    
+}
+.izquierda{
+    width: 100px;
+    height: 70px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    position: absolute;
+
+}
+.centro{
+    width: 215px;
+    height: 70px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    position: absolute;
+    left: 112px;
+}
+.derecha{
+    width: 87px;
+    height: 70px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    position: absolute;
+    left: 330px;
+    opacity: 0.5;
+}
+.nombre{
+    text-transform: capitalize;
+    font-size: 60%;
+    
+}
+.foto{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    margin: 8px;
+    margin-left: 25px;
+}
+.fecha{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0px;
+
+}
+.derecha .fecha p{
+    display: inline-block;
+}
+.icono{
+    display:inline-block;
+    margin-left: 10px;
+    font-size: 16px !important;
+    margin-top:10px;
+}
