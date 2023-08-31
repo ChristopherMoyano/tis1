@@ -1,0 +1,26 @@
+.container{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+.img{
+    
+}
+.first_bar{
+    position: fixed;
+    top:0;
+    display: inline-block;
+    background:rgba(0,0,0,0.5);
+    width: 100%;
+}
+.icons_1{
+    display: inline-block;
+    color:white;
+    position: relative;
+    margin-left: 80%;
+}
+.hour{
+    display: inline-block;
+    color:white;
+}
+
