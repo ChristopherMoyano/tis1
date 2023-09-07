@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.primer-contenido{
+    display: flex;
+    background-color:#f0f0f0;
+    padding: 1%;
+    
+}
+.quedateencasa{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-right: 30%;
+    margin-left: 20%;
+    margin-top: 0.3%;
+}
+.iconosIniciales{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+.icono{
+    color:#d6092c;
+    margin:0;
+    padding:0;
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 15%;
+    font-size: 150%;
+}
+.buscador{
+    margin-left: 6%;
+    margin-bottom: 0.6%;
+}
+.buscador-texto{
+    width: 70%;
+    height: 120%;
+}
+.buscador-icono{
+    color:white;
+    background-color: black;
+
+}
+
