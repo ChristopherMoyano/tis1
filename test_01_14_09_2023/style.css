@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto Condensed';
+}
+.primer_nav{
+    height: 5%;
+    width: 100%;
+    display: inline-flex;
+    background-color: lightgray;
+    align-items: center;
+
+}
+.red_social{
+    width: 2%;
+    margin-right: 2%;
+}
+.iconos{
+    opacity: 0.5;
+    position: relative;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0%;
+    display: inline-flex;
+}
+.primeros_links{
+    text-decoration: none;
+    display: inline-flex;
+}
+.botones{
+    display: inline-flex;
+    margin-left: 5% ;
+}
+.vinculo{
+    margin-right: 5%;
+}
+.registrarse{
+    color:white;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+    border:0;
+    margin-right: 15%;
+}
+.inicia_sesion{
+    color: white;
+    background-color: red;
+    border: 0;
+    text-align: center;
+    align-items: center;
+    padding: 8% 30%;
+}
+a{
+    text-decoration: none;
+}
+.segundo_nav{
+    width:100%;
+    height: 5%;
+    display: inline-flex;
+    align-items: center;
+}
+.logo_1{
+    padding: 2%;
+    width: 15%;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.palabras{
+    width: 40%;
+    margin-left: 10%;
+}
+.palabra{
+    margin-right: 5%;
+    color: red;
+}
+.peliculas{
+    color: gray;
+    padding: 2%;
+    background-color: lightgrey;
+}
+.peliculas_2{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+.cartelera{
+    padding: 5%;
+    margin-left: 15%;
+}
+.preventa{
+   padding: 5%;
+   margin-left:5%;
+}
+.proximamente{
+   padding: 5%;
+   margin-left:5%;
+}
+
+.cartelera_semanal{
+    display: inline-flex;
+}
