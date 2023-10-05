@@ -56,8 +56,15 @@
                             echo "<td>" . $row["id"]. "</td>";
                             echo "<td>" .$row["nombre"]. "</td>";
                             echo "<td>" . $row["origen"]. "</td>";
-                            echo "<td> <img src=".$row["logo"]."></td>";
-                            echo "<td></td>";
+                            echo "<td> <img  src=".$row["logo"]." class='img-thumbnail'></td>";
+                            echo "<td>";
+                            echo "<a href='eliminar.php?id_enviado=". $row["id"]."'>";
+                            echo "<button class='btn btn-sm'>Eliminar</button>";
+                            echo "</a>";
+                            echo "<a href='editar.php?id_enviado=". $row["id"]."'>";
+                            echo "<button class='btn btn-sm'>Editar</button>";
+                            echo "</a>";
+                            echo"</td>";
                             echo "</tr>";
                         }
                         ?>
