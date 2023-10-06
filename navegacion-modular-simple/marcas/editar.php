@@ -1,5 +1,5 @@
 <?php
-    include ('conexion.php');
+    include ('../paginas/conexion.php');
     $id_recibido =$_GET["id_enviado"];
     $query = "SELECT * FROM marcas WHERE id=".$id_recibido.";";
     $result = mysqli_query($conexion, $query);
