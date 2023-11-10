@@ -73,6 +73,31 @@
                 </table>
             </div>
         </div>
+        
     </div>
+    
 </body>
+<script>
+    $(document).ready(function(){
+        $('#boton').click(function(e){
+            e.preventDefault();
+            var hola = $('#nombre').val();
+            var data = hola;
+            console.log(data);
+            $.ajax({
+                type:"POST",
+                url: 'guardar.php',
+                data: data,
+                success: function(response)
+                {
+                    console.log("hola dentro del success")
+                },
+                error:function(error)
+                {
+                    console.log("tenemos problemas")
+                }
+            });
+        });
+    });
+</script>
 </html>
